@@ -1,12 +1,18 @@
 // import { useState } from 'react'
+import { Route, Routes } from 'react-router-dom'
 import './App.css'
+import Navbar from './components/Navbar'
+import LandingPage from './pages/LandingPage'
 
 function App() {
 
   return (
-    <div className='h-screen w-screen flex items-center justify-center'>
-      <div className='text-blue-800 text-5xl '>Welcome to The VYBH Homepage. Testing.</div> 
-    </div>
+   <>
+   <Navbar/>
+   <Routes>
+    <Route path='' element={<LandingPage/>}/>
+   </Routes>
+   </>
   )
 }
 
