@@ -9,16 +9,16 @@ type ButtonProps = {
 };
 const variantClass = {
   solid: {
-    primary: 'bg-purple-700 text-white hover:bg-purple-800',
+    primary: 'bg-purple text-white hover:bg-purple',
     secondary: 'bg-gray-600 text-white hover:bg-gray-700',
     danger: 'bg-red-600 text-white hover:bg-red-700',
     success: 'bg-green-600 text-white hover:bg-green-700',
   },
   outline: {
-    primary: 'border border-purple-700 text-purple-700 hover:bg-purple-100',
-    secondary: 'border border-gray-600 text-gray-600 hover:bg-gray-100',
-    danger: 'border border-red-600 text-red-600 hover:bg-red-100',
-    success: 'border border-green-600 text-green-600 hover:bg-green-100',
+    primary: 'border-2 border-purple text-purple hover:bg-purple hover:text-white',
+    secondary: 'border-2 border-gray-600 text-gray-600 hover:bg-gray-100 hover:text-white',
+    danger: 'border-2 border-red-600 text-red-600 hover:bg-red- hover:text-white',
+    success: 'border-2 border-green-600 text-green-600 hover:bg-green-100 hover:text-white',
   },
 };
 const sizeClass = {
