@@ -6,7 +6,7 @@ const Event = () => {
         <div className="lg:grid lg:grid-cols-3 gap-6 p-8 lg:p-20">
             <img src="image.png" className="w-full col-span-2 aspect-video rounded-lg"/>
             <div className='mt-4 md:mt-0'>
-                <div className="bg-darkgray text-white rounded-lg p-4 flex flex-col gap-2">
+                <div className="bg-lightgray text-white rounded-lg p-4 flex flex-col gap-2">
                     <h1 className="text-3xl font-bold">EDM FEST 2025</h1>
                     <p className='flex items-center gap-2'><span><FaRegCalendar/></span>March 15, 2025 - 8:00 PM</p>
                     <p className='flex items-center gap-2'><span><FaLocationDot/></span>Crypto Arena, Los Angeles</p>
