@@ -7,9 +7,9 @@ export default {
   theme: {
     extend: {},
     colors:{
-      gray:"#1E2A38",
-      darkgray:"#1e1e1e",
-      lightgray:"#9CA3AF",
+      gray:"#111827",
+      darkgray:"#030712",
+      lightgray:"#1f2937",
       black:"black",
       white:"white",
       purple:"#7E22CE",

@@ -1,4 +1,4 @@
-import { FaLocationDot,FaCalendar, FaRegCalendar } from 'react-icons/fa6'
+import { FaLocationDot, FaRegCalendar } from 'react-icons/fa6'
 const EventCard = () => {
   return (
     <div  className='flex flex-col w-80 cursor-pointer'>

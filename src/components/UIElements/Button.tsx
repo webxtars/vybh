@@ -6,6 +6,7 @@ type ButtonProps = {
   color?: 'primary' | 'secondary' | 'danger' | 'success';
   size?: 'small' | 'medium' | 'large';
   onClick?: () => void;
+  customClass?: string,
 };
 const variantClass = {
   solid: {
@@ -26,9 +27,9 @@ const sizeClass = {
   medium: 'px-4 py-2 text-md',
   large: 'px-5 py-3 text-lg',
 };
-const baseClass="rounded-lg px-4 py-2"
-const Button: React.FC<ButtonProps> = ({onClick,title,variant='solid',color="primary",size="small"}) => {
 
+const Button: React.FC<ButtonProps> = ({onClick,title,variant='solid',color="primary",size="small",customClass}) => {
+const baseClass=`rounded-lg px-4 py-2 ${customClass}`
 
   return (
     <button 

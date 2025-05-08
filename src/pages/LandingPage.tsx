@@ -12,8 +12,8 @@ const LandingPage = () => {
         <Button color='primary' variant='solid' title='Connect Wallet' size='large'/>
       </div>
     </div>
-    <div className='w-full bg-black text-white py-4'>
-      <div className='flex  justify-between items-center px-4 md:px-10 lg:px-20 mb-6'>
+    <div className='w-fit bg-black text-white py-4'>
+      <div className='flex w-full  justify-between items-center px-4 md:px-10 lg:px-20 mb-6'>
         <div className='text-xl md:text-3xl font-bold'>Featured Events</div>
         <div className='flex gap-2'>
           <span className='bg-gray text-xs md:text-md rounded-lg py-1 px-2 md:p-2 md:px-4'>Music</span>
@@ -21,14 +21,16 @@ const LandingPage = () => {
           <span className='bg-gray text-xs md:text-md rounded-lg py-1 px-2 md:p-2 md:px-4'>Sports</span>
         </div>
       </div>
-      <div className='flex flex-wrap gap-4 lg:gap-6 justify-center md:justify-center px-4 md:px-10 lg:px-16 mb-6'>
-        <EventCard/>
-        <EventCard/>
-        <EventCard/>
-        <EventCard/>
-        <EventCard/>
-        <EventCard/>
-        <EventCard/>
+      <div className='flex justify-center w-full'>
+        <div className='flex flex-wrap  gap-4 lg:gap-6  w-fit justify-center px-4 md:px-10 lg:px-16 mb-6'>
+          <EventCard/>
+          <EventCard/>
+          <EventCard/>
+          <EventCard/>
+          <EventCard/>
+          <EventCard/>
+          <EventCard/>
+        </div>
       </div>
     </div>
     </>
