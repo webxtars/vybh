@@ -17,9 +17,9 @@ const LandingPage = () => {
       <div className='flex w-full  justify-between items-center px-4 md:px-10 lg:px-20 mb-6'>
         <div className='text-xl md:text-3xl font-bold'>Featured Events</div>
         <div className='flex gap-2'>
-          <span className='bg-gray text-xs md:text-md rounded-lg py-1 px-2 md:p-2 md:px-4'>Music</span>
-          <span className='bg-gray text-xs md:text-md rounded-lg py-1 px-2 md:p-2 md:px-4'>Arts</span>
-          <span className='bg-gray text-xs md:text-md rounded-lg py-1 px-2 md:p-2 md:px-4'>Sports</span>
+          <span className='bg-lightgray text-xs md:text-md rounded-lg py-1 px-2 md:p-2 md:px-4'>Music</span>
+          <span className='bg-lightgray text-xs md:text-md rounded-lg py-1 px-2 md:p-2 md:px-4'>Arts</span>
+          <span className='bg-lightgray text-xs md:text-md rounded-lg py-1 px-2 md:p-2 md:px-4'>Sports</span>
         </div>
       </div>
       <div className='flex justify-center w-full'>

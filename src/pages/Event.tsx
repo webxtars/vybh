@@ -15,14 +15,14 @@ const Event = () => {
                 <div className='text-white'>
                     <h1 className='mb-4 mt-6 text-xl font-bold'>Select Tickets</h1>
                     <div className='flex flex-col gap-3'>
-                        <div className='bg-darkgray flex items-center justify-between cursor-pointer p-3 rounded-lg border border-purple'>
+                        <div className='bg-lightgray flex items-center justify-between cursor-pointer p-3 rounded-lg border border-purple'>
                             <div className='flex flex-col'>
                                 <span className='font-bold text-lg'>VIP Access</span>
                                 <span>Front Row</span>
                             </div>
                             <span>2.5 ETH</span>
                         </div>
-                        <div className='bg-darkgray flex items-center justify-between cursor-pointer p-3 rounded-lg'>
+                        <div className='bg-lightgray flex items-center justify-between cursor-pointer p-3 rounded-lg'>
                             <div className='flex flex-col'>
                                 <span className='font-bold text-lg'>VIP Access</span>
                                 <span>Front Row</span>
