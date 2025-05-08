@@ -16,10 +16,10 @@ const variantClass = {
     success: 'bg-green-600 text-white hover:bg-green-700',
   },
   outline: {
-    primary: 'border-2 border-purple text-purple hover:bg-purple hover:text-white',
-    secondary: 'border-2 border-gray-600 text-gray-600 hover:bg-gray-100 hover:text-white',
-    danger: 'border-2 border-red-600 text-red-600 hover:bg-red- hover:text-white',
-    success: 'border-2 border-green-600 text-green-600 hover:bg-green-100 hover:text-white',
+    primary: 'border border-purple text-purple hover:bg-purple hover:text-white',
+    secondary: 'border border-gray-600 text-gray-600 hover:bg-gray-100 hover:text-white',
+    danger: 'border border-red-600 text-red-600 hover:bg-red- hover:text-white',
+    success: 'border border-green-600 text-green-600 hover:bg-green-100 hover:text-white',
   },
 };
 const sizeClass = {
