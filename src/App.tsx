@@ -3,6 +3,7 @@ import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import Navbar from './components/Navbar'
 import LandingPage from './pages/LandingPage'
+import Event from './pages/Event'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
    <Navbar/>
    <Routes>
     <Route path='' element={<LandingPage/>}/>
+    <Route path='/event' element={<Event/>}/>
    </Routes>
    </>
   )
