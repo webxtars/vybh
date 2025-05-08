@@ -1,6 +1,7 @@
 import EventCard from '../components/EventCard'
 import Button from '../components/UIElements/Button'
 
+
 const LandingPage = () => {
   return (
     <>
@@ -12,7 +13,7 @@ const LandingPage = () => {
         <Button color='primary' variant='solid' title='Connect Wallet' size='large'/>
       </div>
     </div>
-    <div className='w-fit bg-black text-white py-4'>
+    <div className='w-fit bg-darkgray text-white py-4'>
       <div className='flex w-full  justify-between items-center px-4 md:px-10 lg:px-20 mb-6'>
         <div className='text-xl md:text-3xl font-bold'>Featured Events</div>
         <div className='flex gap-2'>
