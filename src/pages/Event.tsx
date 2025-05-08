@@ -2,7 +2,7 @@ import { FaLocationDot, FaRegCalendar,FaTicket } from 'react-icons/fa6'
 import Button from '../components/UIElements/Button'
 const Event = () => {
   return (
-    <div className="mt-16 w-full bg-lightgray">
+    <div className="mt-16 w-full bg-gray">
         <div className="lg:grid lg:grid-cols-3 gap-6 p-8 lg:p-20">
             <img src="image.png" className="w-full col-span-2 aspect-video rounded-lg"/>
             <div className='mt-4 md:mt-0'>
@@ -15,14 +15,14 @@ const Event = () => {
                 <div className='text-white'>
                     <h1 className='mb-4 mt-6 text-xl font-bold'>Select Tickets</h1>
                     <div className='flex flex-col gap-3'>
-                        <div className='bg-darkgray flex items-center justify-between cursor-pointer p-3 rounded-lg border border-purple'>
+                        <div className='bg-lightgray flex items-center justify-between cursor-pointer p-3 rounded-lg border border-purple'>
                             <div className='flex flex-col'>
                                 <span className='font-bold text-lg'>VIP Access</span>
                                 <span>Front Row</span>
                             </div>
                             <span>2.5 ETH</span>
                         </div>
-                        <div className='bg-darkgray flex items-center justify-between cursor-pointer p-3 rounded-lg'>
+                        <div className='bg-lightgray flex items-center justify-between cursor-pointer p-3 rounded-lg'>
                             <div className='flex flex-col'>
                                 <span className='font-bold text-lg'>VIP Access</span>
                                 <span>Front Row</span>
