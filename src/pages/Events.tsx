@@ -4,25 +4,25 @@ import EventCard from '../components/EventCard'
 const Events = () => {
   return (
     <div className="mt-16">
-        <div className="py-6 px-6 flex pt-8 text-sm  gap-3 w-full border-b border-lightgray">
-            <div className="bg-lightgray rounded-lg py-2 px-3 flex gap-4 items-center">
+        <div className="py-6 px-3 md:px-6 flex pt-8 text-sm overflow-x-auto gap-3 w-full border-b border-lightgray">
+            <div className="bg-lightgray rounded-lg py-2 px-2 md:px-3 flex gap-1 md:gap-4 items-center">
                 <span className='flex gap-2 items-center'>
                     <span className='text-purple'><FaRegCalendar/></span>
-                    <span>All Dates</span>
+                    <span className='text-nowrap'>All Dates</span>
                 </span>
                 <span className='text-xl'><BiCaretDown/></span>
             </div>
-            <div className="bg-lightgray rounded-lg py-2 px-3 flex gap-4 items-center">
+            <div className="bg-lightgray rounded-lg py-2 px-2 md:px-3 flex gap-1 md:gap-4 items-center">
                 <span className='flex gap-2 items-center'>
                     <span className='text-purple'><FaTag/></span>
-                    <span>All Categories</span>
+                    <span className='text-nowrap'>All Categories</span>
                 </span>
                 <span className='text-xl'><BiCaretDown/></span>
             </div>
-            <div className="bg-lightgray rounded-lg py-2 px-3 flex gap-4 items-center">
+            <div className="bg-lightgray rounded-lg py-2 px-2 md:px-3 flex gap-1 md:gap-4 items-center">
                 <span className='flex gap-2 items-center'>
                     <span className='text-purple'><FaCoins/></span>
-                    <span>All Prices</span>
+                    <span className='text-nowrap'>All Prices</span>
                 </span>
                 <span className='text-xl'><BiCaretDown/></span>
             </div>

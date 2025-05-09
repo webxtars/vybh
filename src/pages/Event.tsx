@@ -4,7 +4,7 @@ const Event = () => {
   return (
     <div className="mt-16 w-full bg-gray">
         <div className="lg:grid lg:grid-cols-3 gap-6 p-8 lg:p-20">
-            <img src="image.png" className="w-full col-span-2 aspect-video rounded-lg"/>
+            <img src="image.png" className="w-full col-span-2 aspect-video rounded-lg border-2 border-lightgray"/>
             <div className='mt-4 lg:mt-0'>
                 <div className="bg-lightgray text-white rounded-lg p-4 flex flex-col gap-2">
                     <h1 className="text-3xl font-bold">EDM FEST 2025</h1>
