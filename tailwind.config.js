@@ -8,7 +8,7 @@ export default {
     extend: {},
     colors:{
       gray:"#111827",
-      darkgray:"#030712",
+      darkgray:"#111827",
       lightgray:"#1f2937",
       black:"black",
       white:"white",

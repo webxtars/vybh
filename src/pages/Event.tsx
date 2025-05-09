@@ -5,7 +5,7 @@ const Event = () => {
     <div className="mt-16 w-full bg-gray">
         <div className="lg:grid lg:grid-cols-3 gap-6 p-8 lg:p-20">
             <img src="image.png" className="w-full col-span-2 aspect-video rounded-lg"/>
-            <div className='mt-4 md:mt-0'>
+            <div className='mt-4 lg:mt-0'>
                 <div className="bg-lightgray text-white rounded-lg p-4 flex flex-col gap-2">
                     <h1 className="text-3xl font-bold">EDM FEST 2025</h1>
                     <p className='flex items-center gap-2'><span><FaRegCalendar/></span>March 15, 2025 - 8:00 PM</p>
@@ -15,7 +15,7 @@ const Event = () => {
                 <div className='text-white'>
                     <h1 className='mb-4 mt-6 text-xl font-bold'>Select Tickets</h1>
                     <div className='flex flex-col gap-3'>
-                        <div className='bg-lightgray flex items-center justify-between cursor-pointer p-3 rounded-lg border border-purple'>
+                        <div className='bg-lightgray flex items-center justify-between cursor-pointer p-3 rounded-lg border-2 border-purple'>
                             <div className='flex flex-col'>
                                 <span className='font-bold text-lg'>VIP Access</span>
                                 <span>Front Row</span>
