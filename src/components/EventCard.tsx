@@ -2,7 +2,7 @@ import { FaLocationDot, FaRegCalendar } from 'react-icons/fa6'
 import { Link } from 'react-router-dom'
 const EventCard = () => {
   return (
-    <Link to="/event" className='flex flex-col w-80 cursor-pointer'>
+    <Link to="/event" className='flex flex-col w-80 cursor-pointer border border-lightgray rounded-md'>
     <img src='image.png' className='rounded-t-lg h-60 object-cover'/>
     <div className='bg-lightgray rounded-b-lg flex flex-col gap-2 p-4'>
       <h2 className='font-bold'>Crypto Beats Festival</h2>
