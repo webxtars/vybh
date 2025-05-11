@@ -17,7 +17,7 @@ const Navbar = () => {
                 setShowSearchBar(true)
             }} 
             className='text-2xl ml cursor-pointer text-purple'>< FaSearch/></span>}
-            {(loggedIn && !showSearchBar) &&<div className='hidden md:flex gap-1 bg-lightgray  p-2 px-4 rounded-md '>
+            {(loggedIn && !showSearchBar) &&<div className='flex gap-1 bg-lightgray  p-2 px-4 rounded-md '>
                 <span className='flex items-center gap-1'>
                     <div className='w-2 h-2 rounded-lg bg-green'></div>
                     <span>ETH Network</span>
