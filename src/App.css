@@ -2,3 +2,30 @@ body{
     background-color: #111827;
     color: white;
 }
+.gradient-animation{
+
+    background-image: linear-gradient(270deg ,  white, #7E22CE,white ,white);
+    -webkit-background-clip: text; 
+    background-clip: text; 
+    color: transparent;
+    
+    background-size: 200%;
+    background-position: 200%;  
+    
+    animation: animatedText ease-in-out 5s infinite;
+  }
+  
+  @keyframes animatedText{
+    0%{
+      background-position: 0%;
+    }
+    50%{
+      background-position: 100%; 
+    }
+    75%{
+      background-position: 100%; 
+    }
+    100%{
+      background-position: 0%;
+    }
+  }
