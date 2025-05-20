@@ -6,7 +6,8 @@ import {  useState } from 'react'
 import NavbarTextbox from './UIElements/NavbarTextbox'
 const Navbar = () => {
     const [showSearchBar,setShowSearchBar]=useState(false)
-    const [loggedIn,setLoggedIn]=useState(false)
+    // const [loggedIn,setLoggedIn]=useState(false)
+    const loggedIn=false
     
   return (
     <section className='fixed z-30 top-0 left-0 w-screen bg-gray border-b border-lightgray bg-clip-padding backdrop-filter backdrop-blur-lg  py-4 px-4 md:px-20 text-white flex justify-between items-center'>
@@ -28,7 +29,7 @@ const Navbar = () => {
                     <span>3 NFTs</span>
                 </span>
             </div>}
-            {(!loggedIn && !showSearchBar) && <Button color='primary' onClick={()=>setLoggedIn(true)} title='Connect Wallet'/>}
+            {(!loggedIn && !showSearchBar) && <Link to={"/connect"}><Button color='primary' title='Connect Wallet'/></Link>}
         </div>
     </section>
   )

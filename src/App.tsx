@@ -5,6 +5,7 @@ import Navbar from './components/Navbar'
 import LandingPage from './pages/LandingPage'
 import Event from './pages/Event'
 import Events from './pages/Events'
+import ConnectWallet from './pages/ConnectWallet'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
     <Route path='' element={<LandingPage/>}/>
     <Route path='/event' element={<Event/>}/>
     <Route path='/events' element={<Events/>}/>
+    <Route path='/connect' element={<ConnectWallet/>}/>
    </Routes>
    </div>
   )
