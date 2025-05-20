@@ -1,5 +1,4 @@
-import React from 'react'
-import { BiArrowToRight, BiRightArrow, BiWallet } from 'react-icons/bi'
+import {  BiWallet } from 'react-icons/bi'
 import { IoIosArrowForward } from 'react-icons/io'
 import { PiWarningCircle } from 'react-icons/pi'
 
