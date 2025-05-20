@@ -28,7 +28,7 @@ const Navbar = () => {
                     <span>3 NFTs</span>
                 </span>
             </div>}
-            {(!loggedIn && !showSearchBar) && <Button color='primary' onClick={()=>setLoggedIn(true)} title='Connect Wallet'/>}
+            {(!loggedIn && !showSearchBar) && <Link to={"/connect"}><Button color='primary' title='Connect Wallet'/></Link>}
         </div>
     </section>
   )
