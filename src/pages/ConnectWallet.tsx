@@ -32,7 +32,7 @@ const ConnectWallet = () => {
                 </div>
                 <span><IoIosArrowForward/></span>
                 </div>
-            <div className='bg-lightgray rounded-lg w-full py-4 px-2 text-xs md:text-sm md:px-4 flex flex-col gap-1 text-center items-center text-purple'>
+            <div className='bg-lightgray rounded-lg w-full py-4 px-2 text-xs md:text-sm md:px-4 flex flex-col gap-1 text-center items-center '>
                <span className='flex items-center gap-2'>
                     <PiWarningCircle/> 
                     <span className='font-bold'>Secure Connection</span>
