@@ -1,6 +1,8 @@
 import { FaLocationDot, FaRegCalendar,FaTicket } from 'react-icons/fa6'
 import Button from '../components/UIElements/Button'
+import { useNavigate } from 'react-router-dom'
 const Event = () => {
+    const navigate=useNavigate()
   return (
     <div className="mt-16 w-full bg-gray">
         <div className="lg:grid lg:grid-cols-3 gap-6 p-8 lg:p-20">
@@ -30,7 +32,7 @@ const Event = () => {
                             <span>2.5 ETH</span>
                         </div>
                     </div>
-                    <Button title='Buy Tickets Now' customClass='w-full mt-4' size='large'/>
+                    <Button onClick={()=>navigate("/checkout")} title='Buy Tickets Now' customClass='w-full mt-4' size='large'/>
                 </div>
             </div>
         </div>

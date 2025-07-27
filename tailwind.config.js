@@ -13,7 +13,9 @@ export default {
       black:"black",
       white:"white",
       purple:"#7E22CE",
-      green:"green"
+      green:"green",
+      yellow:"yellow",
+      lightBlue:"#60A5FA"
     }
   },
   plugins: [],
