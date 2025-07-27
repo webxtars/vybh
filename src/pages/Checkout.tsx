@@ -1,7 +1,6 @@
-import React from 'react'
 import { AiFillThunderbolt } from 'react-icons/ai'
 import { CgCalendar } from 'react-icons/cg'
-import { FaClock, FaLocationDot, FaLocationPin } from 'react-icons/fa6'
+import { FaClock, FaLocationDot } from 'react-icons/fa6'
 import { SiTicktick } from 'react-icons/si'
 
 const Checkout = () => {
